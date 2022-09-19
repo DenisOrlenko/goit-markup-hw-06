@@ -59,10 +59,6 @@
 
 /* кнопка Hero - фон #188CE8 */
 
-* {
-  outline: 1px solid green;
-}
-
 /* Добавление в Body: основной цвет и шрифт текста + фон */
 body {
   color: var(--primary-text-color);
