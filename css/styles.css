@@ -884,12 +884,12 @@ h3 {
 
 .sign-up-button {
   position: relative;
+  width: 200px;
+  height: 50px;
 
   display: flex;
   align-items: center;
 
-  width: 200px;
-  height: 50px;
   /* margin-left: 12px;
   margin-right: auto; */
   margin-top: auto;
