@@ -59,6 +59,10 @@
 
 /* кнопка Hero - фон #188CE8 */
 
+* {
+  outline: 1px solid green;
+}
+
 /* Добавление в Body: основной цвет и шрифт текста + фон */
 body {
   color: var(--primary-text-color);
@@ -884,6 +888,10 @@ h3 {
 
 .sign-up-button {
   position: relative;
+
+  display: flex;
+  align-items: center;
+
   width: 200px;
   height: 50px;
   /* margin-left: 12px;
