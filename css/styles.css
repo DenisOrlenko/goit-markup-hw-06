@@ -569,6 +569,8 @@ h3 {
 }
 
 .checkbox-link {
+  margin-left: 5px;
+
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
