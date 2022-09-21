@@ -67,6 +67,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -335,6 +339,8 @@ h3 {
 
   opacity: 1;
   transition: opacity var(--duration-timing-function), visibility var(--duration-timing-function);
+
+  z-index: 2;
 }
 
 .backdrop.is-hidden {
