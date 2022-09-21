@@ -495,14 +495,15 @@
             placeholder="Введіть текст"></textarea>
         </div>
 
+        <!--disabled или tabindex=-1 чтоб TAB не фокусировал єлемент (input)-->
         <div class="checkbox">
-          <input class="checkbox-input" name="agree-checkbox-new" type="checkbox" id="agree-checkbox-new">
+          <input disabled class="checkbox-input" name="agree-checkbox-new" type="checkbox" id="agree-checkbox-new">
           <label class="checkbox-label" for="agree-checkbox-new">
             <span class="icon-thumb">
               <svg tabindex=0 class="icon" width="16" height="15">
                 <use href="./images/sprite.svg#icon-checkbox"></use>
               </svg>
-            </span>Погоджуюся з розсилкою та приймаю&nbsp;
+            </span>Погоджуюся з розсилкою та приймаю
             <a href="" class="checkbox-link">Умови договору</a>
           </label>
         </div>
